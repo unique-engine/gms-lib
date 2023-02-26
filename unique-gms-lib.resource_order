@@ -1,0 +1,12 @@
+{
+  "FolderOrderSettings": [
+    {"name":"Internal","order":4,"path":"folders/Unique Engine/Internal.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"ue_model","order":3,"path":"scripts/ue_model/ue_model.yy",},
+    {"name":"ue_model_merge","order":1,"path":"scripts/ue_model_merge/ue_model_merge.yy",},
+    {"name":"obj_demo","order":1,"path":"objects/obj_demo/obj_demo.yy",},
+    {"name":"ue_update_basic_camera","order":1,"path":"scripts/ue_update_basic_camera/ue_update_basic_camera.yy",},
+    {"name":"rm_demo","order":2,"path":"rooms/rm_demo/rm_demo.yy",},
+  ],
+}

@@ -1,0 +1,39 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.6",
+  "name": "unique-gms-lib",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Unique Engine","folderPath":"folders/Unique Engine.yy","order":0,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Internal","folderPath":"folders/Unique Engine/Internal.yy","order":0,},
+  ],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"cat.unique","CopyToMask":-1,"filePath":"datafiles",},
+  ],
+  "isEcma": false,
+  "MetaData": {
+    "IDEVersion": "2023.1.0.58",
+  },
+  "resources": [
+    {"id":{"name":"ue_model","path":"scripts/ue_model/ue_model.yy",},"order":0,},
+    {"id":{"name":"__ue_classes","path":"scripts/__ue_classes/__ue_classes.yy",},"order":0,},
+    {"id":{"name":"ue_model_merge","path":"scripts/ue_model_merge/ue_model_merge.yy",},"order":0,},
+    {"id":{"name":"ue_setup_basic_camera","path":"scripts/ue_setup_basic_camera/ue_setup_basic_camera.yy",},"order":0,},
+    {"id":{"name":"obj_demo","path":"objects/obj_demo/obj_demo.yy",},"order":0,},
+    {"id":{"name":"ue_update_basic_camera","path":"scripts/ue_update_basic_camera/ue_update_basic_camera.yy",},"order":0,},
+    {"id":{"name":"rm_demo","path":"rooms/rm_demo/rm_demo.yy",},"order":0,},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rm_demo","path":"rooms/rm_demo/rm_demo.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
