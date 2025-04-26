@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "ue_model",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Unique Engine",
-    "path": "folders/Unique Engine.yy",
+  "$GMScript":"v1",
+  "%Name":"ue_model",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ue_model",
+  "parent":{
+    "name":"Unique Engine",
+    "path":"folders/Unique Engine.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

@@ -246,8 +246,8 @@ function UniqueModel(meshes = []) constructor {
 					buffer_set_surface(sprite_surface_buffer, sprite_surface, 0);
 					buffer_delete(sprite_surface_buffer);
 					buffer_seek(buffer, buffer_seek_relative, sprite_surface_bytes);
-					var sprite = sprite_create_from_surface(sprite_surface_buffer, 0, 0, sprite_w, sprite_h, false, false, 0, 0);
-					surface_free(sprite_surface_buffer);
+					var sprite = sprite_create_from_surface(sprite_surface, 0, 0, sprite_w, sprite_h, false, false, 0, 0);
+					surface_free(sprite_surface);
 					materials_store[$ texture_id] = new UniqueTexture(texture_id, texture_type, sprite);
 				}	
 				
